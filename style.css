@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    margin: 50px 90px 50px 90px;
+    min-height: 100vh;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 9px;     
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: hsl(14, 45%, 36%);  
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+p{
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 370;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 38px;
+  color: hsl(30, 10%, 34%);
+  font-size: 15px;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    text-align: left;
+    border-radius: 5px;
+}
+.prep-time{
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  padding-left: 18px;
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+}
+.dots{
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 45px;
+  margin-bottom: 20px;
+  color: hsl(30, 10%, 34%);
+  font-size: 13px;
+}
+.total{
+    margin-bottom: 7px;
+}
+.preparation{
+    margin-bottom: 7px;
+}
+.highlight{
+    font-weight: bold;
+}
+
+.Ingredients{
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal; 
+  color: hsl(30, 10%, 34%);
+  text-align: left;
+  font-size: 14px;
+  padding-left: 25px;
+  margin-bottom: 18px;
+}
+.eggs{
+    margin-bottom: 7px;
+}
+.salt{
+    margin-bottom: 7px;
+}
+.pepper{
+    margin-bottom: 7px;
+}
+.butter{
+    margin-bottom: 7px;
+}
+hr{
+    border-width: 1px;
+    border-color: hsl(30, 10%, 34%,0.2);
+}
+.numbers{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal; 
+    color: hsl(30, 10%, 34%);
+    text-align: left;
+    font-size: 14px;  
+    padding-left: 20px;
+    margin-bottom: 18px;
+}
+.beat, .heat, .cook, .fold, .add{
+    margin-bottom: 7px;
+}
+.Nutrition{
+    margin-bottom: 15px;
+}
+table{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    color: hsl(30, 10%, 34%);
+    text-align: left;
+    font-size: 14px;  
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.nutritional-info{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+[src$=".jpeg"] {
+    width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 5px; 
+}
+
